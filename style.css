@@ -1,9 +1,97 @@
+/* General Style */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 100px;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background: #f5f5f5;
+color: #333;
 }
 
-h1 {
-    color: #333;
+/* Navigation */
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: #222;
+color: white;
+padding: 15px 20px;
+}
+
+nav h2 {
+margin: 0;
+}
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
+margin: 0;
+padding: 0;
+}
+
+nav ul li a {
+color: white;
+text-decoration: none;
+}
+
+nav button {
+background: none;
+border: 1px solid white;
+color: white;
+padding: 5px 10px;
+cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+text-align: center;
+padding: 60px 20px;
+background: white;
+}
+
+.hero img {
+border-radius: 50%;
+width: 150px;
+height: 150px;
+}
+
+.hero h1 {
+margin-top: 20px;
+}
+
+.buttons a {
+display: inline-block;
+margin: 10px;
+padding: 10px 20px;
+background: #222;
+color: white;
+text-decoration: none;
+border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+padding: 40px;
+text-align: center;
+}
+
+.skills ul {
+list-style: none;
+padding: 0;
+}
+
+.skills li {
+background: white;
+margin: 5px;
+padding: 10px;
+display: inline-block;
+border-radius: 5px;
+}
+
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+background: #222;
+color: white;
 }
